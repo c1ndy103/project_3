@@ -145,7 +145,7 @@ function HomePage(){
                 description: "Max is courageous and fearless, ready to face any challenges.",
             },
             {
-                image: "https://mblogthumb-phinf.pstatic.net/20150217_270/bugman1303_1424149686533VVh32_JPEG/jindo_01.jpg?type=w420",
+                image: "https://www.thesprucepets.com/thmb/Mlj9GQRfZcS2G9VWQkJEp3wzBRw=/2000x0/filters:no_upscale():strip_icc()/Korean-Jindo_jamongcreator_shutterstock-453909a9edb04666af108e0aa3035d01.jpg",
                 name: "Cooper",
                 isClicked: false,
                 age: 3,
@@ -189,7 +189,7 @@ function HomePage(){
                 description: "Teddy is social and makes new friends wherever he goes.",
             },
             {
-                image: "https://news.imaeil.com/photos/2008/07/03/2008070314070190368_m.jpg",
+                image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR1mVmj8DQ7z3fvxGjZwlLVGD6AmemXMSBcK1S0h-K-Vsl4leHf",
                 name: "Auggie",
                 isClicked: false,
                 age: 9,
