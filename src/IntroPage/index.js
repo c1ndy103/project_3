@@ -53,7 +53,7 @@ function IntroPage(){
     return(
         <Container>
             <IndexPage></IndexPage>
-            <Title>WPR Jeju</Title>
+            <Title><b>WPR Jeju</b></Title>
             <TopContainer>
                 <Purpose>
                 The purpose is to solve the issue of wild dogs in Jeju by facilitating the reporting and adoption of these animals.<br></br>
