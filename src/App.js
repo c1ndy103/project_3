@@ -6,6 +6,7 @@ import SignUpPage from "./SignUpPage";
 import HomePage from "./HomePage";
 import UserProfilePage from './UserProfilePage';
 import IntroPage from './IntroPage';
+import FavoritePage from './FavoritePage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path = "/user-profile" element = {<UserProfilePage />} />
         <Route path = "/purpose" element = {<IntroPage />} />
         <Route path = "/signup" element = {<SignUpPage />} />
+        <Route path = "/favorite" element = {<FavoritePage />} />
     </Routes>
   </BrowserRouter>
   );

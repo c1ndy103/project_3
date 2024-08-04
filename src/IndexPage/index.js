@@ -67,6 +67,10 @@ function IndexPage(){
           if (page == "purpose"){
             navigate("/purpose");
           }
+
+          if (page == "favorite"){
+            navigate("/favorite");
+          }
         }; 
         return(
             <Container>
@@ -80,7 +84,7 @@ function IndexPage(){
                 <PageName onClick={() => navigateToPage("home")}>
                   Home Page
                 </PageName>
-                <PageName>Favorites</PageName>
+                <PageName onClick={() => navigateToPage("favorite")}>Favorites</PageName>
               </Menu>
             </Container>
         )
