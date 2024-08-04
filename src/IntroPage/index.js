@@ -27,7 +27,7 @@ flex-direction: row;
 justify-content: center;
 margin-top: 50px;
 padding: 20px;
-background-color: #BFAEB8;
+background-color: #95B4C4;
 `;
 
 const Purpose = styled.div`
@@ -58,6 +58,7 @@ margin-top: 30px;
 display:flex;
 flex-direction: row;
 justify-content: space-around;
+background-color: #6BA5C3;
 `;
 
 const IconContainer = styled.div`
@@ -94,17 +95,17 @@ function IntroPage(){
            <BottomContainer>
             <IconContainer>
             <Icon src={Paw}/>
-            <Description>ddd</Description>
+            <Description>Special chance to adopt dogs for free!</Description>
             </IconContainer>
 
             <IconContainer>
             <Icon src={Report}/>
-            <Description>ddd</Description>
+            <Description>Report wild dogs for both local and the dogs!</Description>
             </IconContainer>
             
             <IconContainer>
             <Icon src={Explore}/>
-            <Description>ddd</Description>
+            <Description>Explore and add favorites of the dogs you like!</Description>
             </IconContainer>
            </BottomContainer>
            
