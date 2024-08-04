@@ -54,16 +54,19 @@ const Link = styled.a`
 `;
 
 const BottomContainer = styled.div`
-margin-top: 30px;
+
 display:flex;
 flex-direction: row;
 justify-content: space-around;
 background-color: #6BA5C3;
+padding: 40px;
+height: 100%;
 `;
 
 const IconContainer = styled.div`
 display:flex;
 flex-direction:column;
+align-items:center;
 `;
 const Icon = styled.img`
 width: 100px;
