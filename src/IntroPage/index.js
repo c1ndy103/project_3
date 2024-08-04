@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
 import IndexPage from "../IndexPage";
 import WildDogs from "./wilddogs.jpeg";
-import Paw from "./paw.png"
+import Paw from "./paws.png"
+import Explore from "./explore.png"
+import Report from "./report.png"
 
 const Container = styled.div`
     height: 100vh;
@@ -52,11 +54,24 @@ const Link = styled.a`
 `;
 
 const BottomContainer = styled.div`
+margin-top: 30px;
 display:flex;
 flex-direction: row;
+justify-content: space-around;
 `;
 
-const Icon = styled.img``;
+const IconContainer = styled.div`
+display:flex;
+flex-direction:column;
+`;
+const Icon = styled.img`
+width: 100px;
+`;
+const Description = styled.div`
+font-size: 20px;
+text-align: center;
+margin-top:20px;
+`;
 function IntroPage(){
     return(
         <Container>
@@ -77,9 +92,20 @@ function IntroPage(){
            
            </TopContainer>
            <BottomContainer>
+            <IconContainer>
             <Icon src={Paw}/>
-            <Icon></Icon>
-            <Icon></Icon>
+            <Description>ddd</Description>
+            </IconContainer>
+
+            <IconContainer>
+            <Icon src={Report}/>
+            <Description>ddd</Description>
+            </IconContainer>
+            
+            <IconContainer>
+            <Icon src={Explore}/>
+            <Description>ddd</Description>
+            </IconContainer>
            </BottomContainer>
            
         </Container>
