@@ -21,8 +21,10 @@ margin-top: 40px;
 const TopContainer = styled.div`
 display:flex;
 flex-direction: row;
-margin-left: 10%;
+justify-content: center;
 margin-top: 50px;
+padding: 20px;
+background-color: #D8CAF7;
 `;
 
 const Purpose = styled.div`
