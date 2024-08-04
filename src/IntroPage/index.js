@@ -67,6 +67,7 @@ function IntroPage(){
            
         </Container>
     );
+
 };
 
 export default IntroPage;
