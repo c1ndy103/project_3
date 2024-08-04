@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
 import IndexPage from "../IndexPage";
 import WildDogs from "./wilddogs.jpeg";
+import Paw from "./paw.png"
 
 const Container = styled.div`
     height: 100vh;
@@ -49,6 +50,13 @@ width: 450px;
 const Link = styled.a`
 
 `;
+
+const BottomContainer = styled.div`
+display:flex;
+flex-direction: row;
+`;
+
+const Icon = styled.img``;
 function IntroPage(){
     return(
         <Container>
@@ -68,6 +76,11 @@ function IntroPage(){
                 </ImageContainer>
            
            </TopContainer>
+           <BottomContainer>
+            <Icon src={Paw}/>
+            <Icon></Icon>
+            <Icon></Icon>
+           </BottomContainer>
            
         </Container>
     );
