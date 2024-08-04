@@ -24,7 +24,7 @@ flex-direction: row;
 justify-content: center;
 margin-top: 50px;
 padding: 20px;
-background-color: #D8CAF7;
+background-color: #BFAEB8;
 `;
 
 const Purpose = styled.div`
