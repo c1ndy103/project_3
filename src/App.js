@@ -7,6 +7,8 @@ import HomePage from "./HomePage";
 import UserProfilePage from './UserProfilePage';
 import IntroPage from './IntroPage';
 import FavoritePage from './FavoritePage';
+import Adoption from './AdoptionPage';
+import AdoptionPage from './AdoptionPage';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path = "/purpose" element = {<IntroPage />} />
         <Route path = "/signup" element = {<SignUpPage />} />
         <Route path = "/favorite" element = {<FavoritePage />} />
+        <Route path = "/adoption" element = {<AdoptionPage />} />
     </Routes>
   </BrowserRouter>
   );

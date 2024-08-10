@@ -11,9 +11,7 @@ const Container = styled.div`
   /* min-height: 100vh; */
 `;
 function IndexPage({images}){
-    console.log("===")
-    console.log(images)
-    console.log("-1-1-")
+  
     var styles = {
         bmBurgerButton: {
         position: "fixed",
@@ -74,6 +72,10 @@ function IndexPage({images}){
           if (page == "favorite"){
             navigate("/favorite", {state: images});
           }
+
+          if (page == "adoption"){
+            navigate("/adoption");
+          }
         }; 
         return(
             <Container>
@@ -88,6 +90,7 @@ function IndexPage({images}){
                   Home Page
                 </PageName>
                 <PageName onClick={() => navigateToPage("favorite")}>Favorites</PageName>
+                <PageName onClick={() => navigateToPage("adoption")}>Adoption</PageName>
               </Menu>
             </Container>
         )
