@@ -10,7 +10,10 @@ const Container = styled.div`
   /* height: 100%; */
   /* min-height: 100vh; */
 `;
-function IndexPage(){
+function IndexPage({images}){
+    console.log("===")
+    console.log(images)
+    console.log("-1-1-")
     var styles = {
         bmBurgerButton: {
         position: "fixed",
@@ -62,14 +65,14 @@ function IndexPage(){
             navigate("/user-profile");
           }
           if (page == "home"){
-            navigate("/home");
+            navigate("/home", {state: images});
           }
           if (page == "purpose"){
             navigate("/purpose");
           }
 
           if (page == "favorite"){
-            navigate("/favorite");
+            navigate("/favorite", {state: images});
           }
         }; 
         return(
