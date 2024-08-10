@@ -7,7 +7,6 @@ import HomePage from "./HomePage";
 import UserProfilePage from './UserProfilePage';
 import IntroPage from './IntroPage';
 import FavoritePage from './FavoritePage';
-import Adoption from './AdoptionPage';
 import AdoptionPage from './AdoptionPage';
 
 function App() {

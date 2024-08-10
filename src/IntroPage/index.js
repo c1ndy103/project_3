@@ -6,6 +6,7 @@ import WildDogs from "./wilddogs.jpeg";
 import Paw from "./paws.png"
 import Explore from "./explore.png"
 import Report from "./report.png"
+import {useLocation} from "react-router-dom"
 
 const Container = styled.div`
     height: 100vh;
@@ -77,9 +78,11 @@ text-align: center;
 margin-top:20px;
 `;
 function IntroPage(){
+    const location = useLocation()
+    const images = location.state;
     return(
         <Container>
-            <IndexPage></IndexPage>
+            <IndexPage images={images}></IndexPage>
             <Title><b>WPR Jeju</b></Title>
             <TopContainer>
                 <Purpose>

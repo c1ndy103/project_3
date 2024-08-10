@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React, { useState } from "react";
 import Profile from "./user.png"
 import IndexPage from "../IndexPage";
+import {useLocation} from "react-router-dom"
 
 const Container = styled.div`
     height: 100vh;
@@ -64,6 +65,9 @@ const SubContainer = styled.div`
   margin-top: 10%;
 `;
 function UserProfilePage(){
+    const location = useLocation()
+    const images = location.state;
+
     const [user, setUser] = useState({
         username: "",
         nickname: "",
@@ -83,7 +87,7 @@ function UserProfilePage(){
     };
     return(
     <Container>
-        <IndexPage></IndexPage>
+        <IndexPage images={images}></IndexPage>
         <SubContainer>
         <LeftContainer>
             <ProfileContainer>

@@ -60,13 +60,13 @@ function IndexPage({images}){
         const navigate = useNavigate();
         const navigateToPage = (page) => {
           if (page == "user-profile") {
-            navigate("/user-profile");
+            navigate("/user-profile", {state: images});
           }
           if (page == "home"){
             navigate("/home", {state: images});
           }
           if (page == "purpose"){
-            navigate("/purpose");
+            navigate("/purpose", {state: images});
           }
 
           if (page == "favorite"){
@@ -74,7 +74,7 @@ function IndexPage({images}){
           }
 
           if (page == "adoption"){
-            navigate("/adoption");
+            navigate("/adoption", {state: images});
           }
         }; 
         return(
