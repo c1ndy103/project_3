@@ -9,6 +9,7 @@ const Container = styled.div`
     background-color: #919ea8;
     flex-direction: column;
     display: flex;
+    align-items: center;
 `
 const Title = styled.h1`
     text-align: center;
@@ -22,11 +23,20 @@ const Description = styled.div`
   
 `;
 
+const Button = styled.button`
+width: 200px;
+padding: 20px;
+margin-top: 40px;
+`
 
 function AdoptionPage(){
     const location = useLocation()
     const images = location.state;
    
+
+    function navigateToGoogleForm() {
+      window.open("https://docs.google.com/forms/d/e/1FAIpQLSfwObDscExFJaTkfi823_P0AYTSC7WbR39gEpx5O9KA82_AZg/viewform", "_blank")
+    }
    
 
     return(
@@ -34,6 +44,7 @@ function AdoptionPage(){
             <IndexPage images={images}></IndexPage>
             <Title>Adoption</Title>
             <Description>Please consider not just the joy the dog brings, <b></b> but also lifelong commitment to its care and love that you are about to undertake! </Description>
+            <Button onClick={navigateToGoogleForm}>Adopt Your Pet</Button>
             </Container>
 
     )
