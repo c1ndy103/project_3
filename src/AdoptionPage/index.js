@@ -9,7 +9,7 @@ const Container = styled.div`
     background-color: #919ea8;
     flex-direction: column;
     display: flex;
-    align-items: center;
+
 `
 const Title = styled.h1`
     text-align: center;
@@ -29,6 +29,7 @@ margin-top: 40px;
 text-align: center;
 background-color: #4b646b;
 color: #aeb9bf;
+margin-left: 45%;
 `
 
 function AdoptionPage(){
