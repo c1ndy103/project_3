@@ -76,6 +76,10 @@ function IndexPage({images}){
           if (page == "adoption"){
             navigate("/adoption", {state: images});
           }
+
+          if (page == "report"){
+            navigate("/report", {state: images});
+          }
         }; 
         return(
             <Container>
@@ -91,6 +95,7 @@ function IndexPage({images}){
                 </PageName>
                 <PageName onClick={() => navigateToPage("favorite")}>Favorites</PageName>
                 <PageName onClick={() => navigateToPage("adoption")}>Adoption</PageName>
+                <PageName onClick={() => navigateToPage("report")}>Report</PageName>
               </Menu>
             </Container>
         )

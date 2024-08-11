@@ -8,6 +8,7 @@ import UserProfilePage from './UserProfilePage';
 import IntroPage from './IntroPage';
 import FavoritePage from './FavoritePage';
 import AdoptionPage from './AdoptionPage';
+import ReportPage from './ReportPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path = "/signup" element = {<SignUpPage />} />
         <Route path = "/favorite" element = {<FavoritePage />} />
         <Route path = "/adoption" element = {<AdoptionPage />} />
+        <Route path = "/report" element = {<ReportPage />} />
     </Routes>
   </BrowserRouter>
   );
