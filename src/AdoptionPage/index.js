@@ -33,8 +33,7 @@ function AdoptionPage(){
         <Container>
             <IndexPage images={images}></IndexPage>
             <Title>Adoption</Title>
-            <Description>dfdfdf</Description>
-            
+            <Description>Please consider not just the joy the dog brings, <b></b> but also lifelong commitment to its care and love that you are about to undertake! </Description>
             </Container>
 
     )
