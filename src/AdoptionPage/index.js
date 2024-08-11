@@ -26,6 +26,9 @@ const Button = styled.button`
 width: 200px;
 padding: 20px;
 margin-top: 40px;
+text-align: center;
+background-color: #4b646b;
+color: #aeb9bf;
 `
 
 function AdoptionPage(){
