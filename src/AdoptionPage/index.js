@@ -16,41 +16,12 @@ const Title = styled.h1`
     font-size: 50px;
     padding: 20px;
 `
-const GridWrapper = styled.div`
-  diplay: flex;
-  margin-top: 40px;
-  flex-direction: column;
-  width: 60%;
-  align-self: center;
-`;
-
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-`;
-
-const ImageWrapper = styled.div`
-  height: 400px;
-  width: 250px;
-  background-color: #f4e9cd;
-  margin-right: 20px;
-  /* width: 100%; */
-  display: inline-block;
-  position: relative;
-`;
-
-const Image = styled.img`
-  width: 250px;
-  height: 300px;
-  position: block;
-  /* position: "block"; */
-`;
-
 const Description = styled.div`
-  font-size: 13px;
-  padding-left: 10px;
+  font-size: 20px;
+  text-align:center;
+  
 `;
+
 
 function AdoptionPage(){
     const location = useLocation()
@@ -61,8 +32,8 @@ function AdoptionPage(){
     return(
         <Container>
             <IndexPage images={images}></IndexPage>
-            <Title>Favorites</Title>
-          
+            <Title>Adoption</Title>
+            <Description>dfdfdf</Description>
             
             </Container>
 
