@@ -37,16 +37,16 @@ function AdoptionPage(){
     const images = location.state;
    
     function navigateToGoogleForm() {
-      window.open("https://docs.google.com/forms/d/e/1FAIpQLSfwObDscExFJaTkfi823_P0AYTSC7WbR39gEpx5O9KA82_AZg/viewform", "_blank")
+      window.open("https://forms.gle/APf9Kbi3KPrK6kb36", "_blank")
     }
    
 
     return(
         <Container>
             <IndexPage images={images}></IndexPage>
-            <Title>Adoption</Title>
-            <Description>Please consider not just the joy the dog brings, but also lifelong commitment to its care and love that you are about to undertake! </Description>
-            <Button onClick={navigateToGoogleForm}>Adopt Your Pet</Button>
+            <Title>Report</Title>
+            <Description>If you see stray dogs, please report them to protect your community! </Description>
+            <Button onClick={navigateToGoogleForm}>Report Stray Dog</Button>
             </Container>
 
     )
