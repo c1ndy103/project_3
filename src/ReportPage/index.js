@@ -32,7 +32,7 @@ color: #aeb9bf;
 margin-left: 45%;
 `
 
-function AdoptionPage(){
+function ReportPage(){
     const location = useLocation()
     const images = location.state;
    
@@ -52,6 +52,6 @@ function AdoptionPage(){
     )
 }
 
-export default AdoptionPage;
+export default ReportPage;
 
 
