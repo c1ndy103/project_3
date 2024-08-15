@@ -177,6 +177,13 @@ function LoginPage(){
                 age: 9,
                 description: "Auggie is a cute dog. He always greets people with a wagging tail.",
             },
+            {
+                image: "https://mdtoday.co.kr/news/data/20121106/p179537310901988_748.jpg",
+                name: "Snowball",
+                isClicked: false,
+                age: 6,
+                description: "Snowball is a brave dog. He is not scared of anything.",
+            },
         ],
         PungsanDog: [
             {
